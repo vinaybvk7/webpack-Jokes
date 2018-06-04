@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+.App-title {
+  font-size: 1.5em;
+}
+.App-header {
+  background-color: #157abc;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 70px;
+}
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.inline { float:left; }
+.loader {
+  width: 100px;
+  height: 100px;
+}
+.jokes-layout {
+  color: #000066;
+  width: 75%;
+  margin: 15% auto;
+}
+.next-joke{
+  display: inline-block;
+   width: 50%;
+   float: right;
+}
+
+.prev-joke{
+  display: inline-block;
+  width: 50%;
+
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 3px 4px rgba(10,10,10,.1), 0 0 0 2px rgba(10,10,10,.1);
+    color: #000066;
+    max-width: 100%;
+    position: relative;
+}
+
+.card-content {
+    padding: 1.5rem;
+}
+
+.subtitle {
+    color: #000066;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.25;
+}
+.card-footer {
+    border-top: 1px solid #dbdbdb;
+    align-items: stretch;
+    display: flex;
+}
+
+.card-footer-item {
+    align-items: center;
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: center;
+    padding: .75rem;
+}
+
+.button{
+  padding: 15px 20px;
+  background-color: #00ff40;
+  color: white;
+}
+
+.buttons-layout {
+  margin-bottom: 10px;
+}
+.menu-item{
+  display: inline-block;
+  margin-right: 20px;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none !important
+}
+
+.menus{
+  list-style: none;
+}
+.color-white{
+  color: white;
+}
+
+.active-menu{
+  background-color: blue;
+}
+
+.funny{
+  background-color: #00ff40;
+  color: white;
+}
+.not-funny{
+  background-color: green;
+  color: yellow;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 5% auto;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.nodata-layout{
+  color: #000066;
+  width: 60%;
+  margin: 5% auto;
+}
+.summary-layout{
+  color: #000066;
+  width: 60%;
+  margin: 5% auto;
+}
+
+.disabled-button{
+    padding: 10px 15px;
+  background-color: gray;
+  color: white;
+}
