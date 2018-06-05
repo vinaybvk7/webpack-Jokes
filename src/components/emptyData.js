@@ -3,7 +3,7 @@ import React from 'react';
 const emptyData = props =>{
 
 	return(
-		<div className="nodata-layout">
+		<div className="empty-layout">
 			<b> { props.message } </b>
 		</div>)
 };
