@@ -3,7 +3,7 @@ import React from 'react';
 const load = props =>{
     return(
         <div>
-            <img className="loader" src="'./../../assets/200.gif'" />
+            <img className="load" src="'./../../assets/200.gif'" />
         </div>
     )
 }
