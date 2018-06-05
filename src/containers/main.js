@@ -36,7 +36,7 @@ class Main extends Component {
     const { currentJoke } = this.props.jokesReducer;
     return (
         <div className="jokes-layout">
-          <div className="buttons-layout">
+          <div className="switch-layout">
             <div className="next-joke" >
              <button className="button"  onClick={this.showNext}> Next Joke </button>
             </div>
