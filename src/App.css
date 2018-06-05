@@ -28,7 +28,7 @@
 
 
 .inline { float:left; }
-.loader {
+.load {
   width: 100px;
   height: 100px;
 }
@@ -49,7 +49,7 @@
 
 }
 
-.card {
+.board {
     background-color: #fff;
     box-shadow: 0 3px 4px rgba(10,10,10,.1), 0 0 0 2px rgba(10,10,10,.1);
     color: #000066;
@@ -57,7 +57,7 @@
     position: relative;
 }
 
-.card-content {
+.board-content {
     padding: 1.5rem;
 }
 
@@ -67,13 +67,13 @@
     font-weight: 300;
     line-height: 1.25;
 }
-.card-footer {
+.board-footer {
     border-top: 1px solid #dbdbdb;
     align-items: stretch;
     display: flex;
 }
 
-.card-footer-item {
+.board-footer-item {
     align-items: center;
     display: flex;
     flex-basis: 0;
@@ -89,10 +89,10 @@
   color: white;
 }
 
-.buttons-layout {
+.switch-layout {
   margin-bottom: 10px;
 }
-.menu-item{
+.option-item{
   display: inline-block;
   margin-right: 20px;
   padding: 10px;
@@ -100,7 +100,7 @@
   text-decoration: none !important
 }
 
-.menus{
+.options{
   list-style: none;
 }
 .color-white{
@@ -134,7 +134,7 @@ th, td {
     border-bottom: 1px solid #ddd;
 }
 
-.nodata-layout{
+.empty-layout{
   color: #000066;
   width: 60%;
   margin: 5% auto;
